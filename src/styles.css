@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --background: #05161a;
+  --primary-color: #072E33;
+  --secondary-color: #0C7078;
+  --lower-color: #0F969C;
+  --accent-color: #6DA5C0;
+  --shadow: #294D61;
+  --main-background-gradient: linear-gradient(
+    180deg,
+    var(--background) 0%,
+    var(--primary-color) 25%,
+    var(--secondary-color) 50%,
+    var(--lower-color) 75%,
+    var(--accent-color) 100%
+  );
+}
